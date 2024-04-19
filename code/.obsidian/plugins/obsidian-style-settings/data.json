@@ -3,5 +3,8 @@
   "Appearance-light@@accent-light": "#5AED63",
   "Appearance-light@@mod-left-split-background-select-light": "mod-left-split-background-primary-light",
   "Appearance-light@@mod-right-split-background-select-light": "mod-right-split-background-secondary-light",
-  "Blue-Topaz-Codebox-Highlight@@code-theme-selection": "code-theme-sublime"
+  "Blue-Topaz-Codebox-Highlight@@code-theme-selection": "code-theme-sublime",
+  "blue-topaz-theme@@left-ribbon-style": "bt-bubble-ribbon-hide-left",
+  "blue-topaz-theme@@hide-vault-name": false,
+  "blue-topaz-theme@@bt-status-on": false
 }
