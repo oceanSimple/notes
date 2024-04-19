@@ -1,0 +1,9 @@
+{
+  "accentColor": "#30b8f3",
+  "cssTheme": "Blue Topaz",
+  "interfaceFontFamily": "Consolas",
+  "textFontFamily": "Consolas",
+  "monospaceFontFamily": "Consolas",
+  "baseFontSizeAction": true,
+  "nativeMenus": true
+}

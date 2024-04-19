@@ -1,0 +1,199 @@
+{
+  "main": {
+    "id": "1c9d84d72a75041e",
+    "type": "split",
+    "children": [
+      {
+        "id": "427e191569122272",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a67f30016ff7b62c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "golang/go-zero.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "af75c29a240f3ac4",
+    "type": "split",
+    "children": [
+      {
+        "id": "6c0f01b0d290f9b4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "296d014b546ec9f2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6dc9173cbc076f85",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b581bf76b0d5ac67",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "a0ace16559fc3e4b",
+    "type": "split",
+    "children": [
+      {
+        "id": "cc82663b8b03d524",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "40570c2639315284",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "golang/go-zero.md"
+              }
+            }
+          },
+          {
+            "id": "3a94f721567a9de9",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "3874ae7fe7910e79",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "golang/go-zero.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1dd7620400a4e60d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "golang/go-zero.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "94eff0827d45bb5c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 297.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "a67f30016ff7b62c",
+  "lastOpenFiles": [
+    "golang/go-zero.md",
+    "golang",
+    "template/golang-code.md",
+    "Welcome.md",
+    "template/today.md",
+    "template/shell-code.md",
+    "template/ad-info.md",
+    "template/english-word-table.md",
+    "template",
+    "test.md",
+    "English/单词.md",
+    "template/code.md",
+    "高等数学/极限.md",
+    "学习规划/日程规划.md",
+    "学习规划/每日总结/2024-04-18.md",
+    "学习规划/每日总结",
+    "English/单词（24-03-07 ~ 24-04-17）.md",
+    "English",
+    "2024-W16.md",
+    "2024-04-18.md",
+    "学习规划",
+    "高等数学/picture/Pasted image 20240418213712.png",
+    "高等数学/picture/Pasted image 20240418214732.png",
+    "高等数学/picture",
+    "高等数学",
+    "English/随机中等50词.md",
+    "English/words.md",
+    "golang/go-zero.md",
+    "math/高数.md",
+    "math",
+    "golang/二手交易网站计划书/关系型数据库建立.md",
+    "golang/二手交易网站计划书/项目规划.md",
+    "golang/二手交易网站计划书/业务计划.md",
+    "学习计划.md",
+    "408/计算机网络.md",
+    "未命名.canvas",
+    "golang/tools/redis.md",
+    "golang/二手交易网站计划书",
+    "golang/tools"
+  ]
+}
