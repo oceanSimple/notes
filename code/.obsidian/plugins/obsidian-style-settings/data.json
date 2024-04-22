@@ -1,10 +1,14 @@
 {
-  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-topaz-nord",
+  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-monochrome-topaz",
   "Appearance-light@@accent-light": "#5AED63",
   "Appearance-light@@mod-left-split-background-select-light": "mod-left-split-background-primary-light",
   "Appearance-light@@mod-right-split-background-select-light": "mod-right-split-background-secondary-light",
   "Blue-Topaz-Codebox-Highlight@@code-theme-selection": "code-theme-sublime",
-  "blue-topaz-theme@@left-ribbon-style": "bt-bubble-ribbon-hide-left",
+  "blue-topaz-theme@@left-ribbon-style": "default-left-ribbon-style",
   "blue-topaz-theme@@hide-vault-name": false,
-  "blue-topaz-theme@@bt-status-on": false
+  "blue-topaz-theme@@bt-status-on": false,
+  "blue-topaz-theme@@background-settings-workplace-background-image": false,
+  "blue-topaz-theme@@background-settings-workplace-theme-light": "background-settings-workplace-waves-light",
+  "blue-topaz-theme@@interactive-accent@@dark": "#0035ED",
+  "blue-topaz-theme@@interactive-accent@@light": "#44C5CF"
 }

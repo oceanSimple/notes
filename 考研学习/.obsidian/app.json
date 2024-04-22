@@ -1,5 +1,6 @@
 {
   "promptDelete": false,
   "attachmentFolderPath": "./picture",
-  "spellcheck": false
+  "spellcheck": false,
+  "defaultViewMode": "preview"
 }

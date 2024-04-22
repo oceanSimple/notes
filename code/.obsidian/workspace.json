@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d094a774cef4be3d",
+        "id": "762fc57e2445a360",
         "type": "tabs",
         "children": [
           {
-            "id": "b88f2bfefe52ab5f",
+            "id": "681eb0d867abe8cf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "golang/websocket.md",
+                "file": "campus-shopping-web/websocket.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "golang/websocket.md"
+                "file": "campus-shopping-web/websocket.md"
               }
             }
           },
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "golang/websocket.md",
+                "file": "campus-shopping-web/websocket.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "golang/websocket.md",
+                "file": "campus-shopping-web/websocket.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,17 +155,22 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "40570c2639315284",
+  "active": "681eb0d867abe8cf",
   "lastOpenFiles": [
-    "golang/go-zero.md",
+    "template/json-code.md",
+    "campus-shopping-web/websocket.md",
+    "template/h2.md",
     "golang/websocket.md",
     "campus-shopping-web/mysql规范.md",
-    "template/h1.md",
-    "template/sql-code.md",
-    "campus-shopping-web",
+    "golang/go-zero.md",
     "高等数学/极限/Example.md",
     "高等数学/极限/极限.md",
     "高等数学/极限/函数.md",
+    "English/单词.md",
+    "English/单词（24-03-07 ~ 24-04-17）.md",
+    "template/h1.md",
+    "template/sql-code.md",
+    "campus-shopping-web",
     "高等数学/极限/picture/Pasted image 20240419135658.png",
     "高等数学/极限/picture/Pasted image 20240419135637.png",
     "高等数学/极限/picture/Pasted image 20240419135558.png",
@@ -191,11 +196,6 @@
     "template/icon-snow.md",
     "高等数学/极限",
     "template/4.md",
-    "template/3.md",
-    "template/2.md",
-    "English/单词.md",
-    "template/golang-code.md",
-    "test.md",
     "template",
     "template",
     "学习规划/每日总结",
