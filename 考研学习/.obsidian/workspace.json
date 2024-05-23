@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "b4be40b428fcc27f",
+        "id": "375e66da85c2383c",
         "type": "tabs",
         "children": [
           {
-            "id": "8b5d8fae46ab88cf",
+            "id": "5446310c9c60368b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "高等数学/公式.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8fc682635b1ff76a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "高等数学/极限/Example.md",
-                "mode": "preview",
+                "file": "408/操作系统.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "path:\"高等数学/极限/\" ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "高等数学/极限/Example.md"
+                "file": "408/操作系统.md"
               }
             }
           },
@@ -116,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "高等数学/极限/Example.md",
+                "file": "408/操作系统.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "高等数学/极限/Example.md",
+                "file": "408/操作系统.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +141,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5
+    "width": 238.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,53 +155,54 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "40570c2639315284",
+  "active": "5446310c9c60368b",
   "lastOpenFiles": [
-    "高等数学/公式.md",
-    "高等数学/极限/Example.md",
-    "高等数学/极限/picture/Pasted image 20240422102035.png",
-    "高等数学/极限/picture/Pasted image 20240422100625.png",
-    "高等数学/极限/picture/Pasted image 20240422100609.png",
-    "高等数学/极限/picture/Pasted image 20240422100551.png",
-    "高等数学/极限/picture/Pasted image 20240422100529.png",
     "English/单词.md",
-    "template/json-code.md",
-    "template/h2.md",
-    "template/every-day.md",
-    "学习规划/每日总结/2024-04-21.md",
-    "学习规划/周总结/24-04-14 ~ 24-04-20.md",
-    "高等数学/极限/连续.md",
-    "高等数学/极限/picture/Pasted image 20240421164729.png",
-    "高等数学/极限/picture/Pasted image 20240421164714.png",
-    "高等数学/极限/picture/Pasted image 20240421164700.png",
-    "高等数学/极限/picture/Pasted image 20240421161450.png",
-    "高等数学/极限/picture/Pasted image 20240421161429.png",
-    "高等数学/极限/函数.md",
-    "高等数学/picture",
-    "未命名",
-    "高等数学/公式/公式.md",
-    "高等数学/公式",
-    "template/sup.md",
-    "高等数学/极限/极限.md",
-    "template/ad-info.md",
-    "学习规划/周总结",
+    "学习规划/每日总结/2024-05-22.md",
+    "408/操作系统.md",
+    "408/picture/Pasted image 20240522113844.png",
+    "408/picture/Pasted image 20240522113824.png",
+    "408/picture/Pasted image 20240522113805.png",
+    "408/picture/Pasted image 20240522113745.png",
+    "408/picture/Pasted image 20240522113732.png",
+    "408/picture/Pasted image 20240522113728.png",
+    "学习规划/每日总结/2024-05-21.md",
+    "408/picture/Pasted image 20240521115511.png",
+    "408/picture/Pasted image 20240521114142.png",
+    "学习规划/每日总结/2024-05-20.md",
+    "机器学习/西瓜书.md",
+    "English/单词(24-04-18~24-05-14).md",
+    "408/picture/Pasted image 20240520121452.png",
+    "408/picture/Pasted image 20240520113546.png",
+    "408/计算机组成原理.md",
+    "408/计算机网络.md",
+    "学习规划/每日总结/2024-05-13.md",
     "English/单词（24-03-07 ~ 24-04-17）.md",
-    "campus-shopping-web/websocket.md",
-    "campus-shopping-web/mysql规范.md",
-    "golang/go-zero.md",
-    "golang/websocket.md",
-    "template/h1.md",
-    "template/sql-code.md",
+    "学习规划/每日总结/2024-05-12.md",
+    "学习规划/每日总结/2024-05-11.md",
+    "学习规划/每日总结/2024-05-10.md",
+    "学习规划/每日总结/2024-05-09.md",
+    "学习规划/每日总结/2024-05-08.md",
+    "高等数学/3-积分学/反常积分.md",
+    "高等数学/3-积分学/黎曼积分.md",
+    "学习规划/每日总结/2024-05-07.md",
+    "学习规划/每日总结/2024-05-06.md",
+    "408/picture",
+    "高等数学/2-导数与微分/导数-知识点.md",
+    "学习规划/每日总结/2024-05-05.md",
+    "学习规划/每日总结/2024-05-04.md",
+    "学习规划/每日总结/2024-05-03.md",
+    "学习规划/每日总结/2024-05-02.md",
+    "学习规划/每日总结/2024-05-01.md",
+    "机器学习/picture",
+    "机器学习",
+    "高等数学/3-积分学/picture",
+    "高等数学/3-积分学",
+    "front",
+    "新建文件夹",
     "campus-shopping-web",
-    "template/example.md",
-    "template/ad-note.md",
-    "template/sub.md",
-    "高等数学/极限/Untitled.md",
     "高等数学/极限/picture",
     "高等数学/极限",
-    "template",
-    "template",
-    "学习规划/每日总结",
     "未命名.canvas"
   ]
 }

@@ -1,0 +1,208 @@
+{
+  "main": {
+    "id": "1c9d84d72a75041e",
+    "type": "split",
+    "children": [
+      {
+        "id": "762fc57e2445a360",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "681eb0d867abe8cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智慧医疗伦理学.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "af75c29a240f3ac4",
+    "type": "split",
+    "children": [
+      {
+        "id": "6c0f01b0d290f9b4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "296d014b546ec9f2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6dc9173cbc076f85",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "path:\"高等数学/极限/\" ",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b581bf76b0d5ac67",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "a0ace16559fc3e4b",
+    "type": "split",
+    "children": [
+      {
+        "id": "cc82663b8b03d524",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "40570c2639315284",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "智慧医疗伦理学.md"
+              }
+            }
+          },
+          {
+            "id": "3a94f721567a9de9",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "3874ae7fe7910e79",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "智慧医疗伦理学.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1dd7620400a4e60d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "智慧医疗伦理学.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "94eff0827d45bb5c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 238.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "templater-obsidian:Templater": false,
+      "oz-clear-unused-images:Clear Unused Images": false
+    }
+  },
+  "active": "681eb0d867abe8cf",
+  "lastOpenFiles": [
+    "Welcome.md",
+    "智慧医疗伦理学.md",
+    "front/vue+ts搭建.md",
+    "front/css.md",
+    "campus-shopping-web/web前端项目.md",
+    "front/vue总结.md",
+    "front/elementPlus.md",
+    "front",
+    "新建文件夹",
+    "campus-shopping-web/websocket.md",
+    "template/json-code.md",
+    "template/h2.md",
+    "golang/websocket.md",
+    "campus-shopping-web/mysql规范.md",
+    "golang/go-zero.md",
+    "高等数学/极限/Example.md",
+    "高等数学/极限/极限.md",
+    "高等数学/极限/函数.md",
+    "English/单词.md",
+    "English/单词（24-03-07 ~ 24-04-17）.md",
+    "template/h1.md",
+    "template/sql-code.md",
+    "campus-shopping-web",
+    "高等数学/极限/picture/Pasted image 20240419135658.png",
+    "高等数学/极限/picture/Pasted image 20240419135637.png",
+    "高等数学/极限/picture/Pasted image 20240419135558.png",
+    "高等数学/极限/picture/Pasted image 20240419135459.png",
+    "高等数学/极限/picture/Pasted image 20240419135433.png",
+    "高等数学/极限/picture/IMG_20240419_133744.jpg",
+    "高等数学/极限/picture/Pasted image 20240419130139.png",
+    "高等数学/极限/picture/Pasted image 20240419134606.png",
+    "高等数学/极限/picture/Screenshot_2024-04-19-13-09-31-998_com.newskyer.d.png",
+    "高等数学/极限/picture/Pasted image 20240419134710.png",
+    "template/example.md",
+    "template/ad-info.md",
+    "template/ad-note.md",
+    "template/sub.md",
+    "高等数学/极限/Untitled.md",
+    "template/column-picture.md",
+    "高等数学/极限/picture",
+    "高等数学/极限",
+    "template",
+    "template",
+    "学习规划/每日总结",
+    "English",
+    "学习规划",
+    "未命名.canvas"
+  ]
+}
