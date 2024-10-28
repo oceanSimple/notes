@@ -9,7 +9,22 @@ pnpm create vite project
 cd project
 pnpm i
 ```
-2. `vite-env.d.ts`
+2. main.js
+```ts
+import {createApp} from 'vue'
+import App from './App.vue'
+import ElementPlus from 'element-plus'
+import 'element-plus/dist/index.css'
+import router from "./router/index.js";
+import {createPinia} from "pinia";
+const pinia = createPinia()
+const app = createApp(App)
+app.use(ElementPlus)
+    .use(router)
+    .use(pinia)
+app.mount('#app')
+```
+3. `vite-env.d.ts`
 ```ts
 /// <reference types="vite/client" />  
 //解决ts文件引入vue文件出现红色警告问题  
@@ -122,15 +137,9 @@ export default request
 ```shell
 pnpm i element-plus
 ```
-2. `main.ts`
+2. **index.html**
 ```ts
-// 引入element-plus组件和样式
-import ElementPlus from 'element-plus'
-import 'element-plus/dist/index.css'
-//@ts-expect-error忽略当前文件ts类型的检测否则有红色提示(打包会失败)
-import zhCn from 'element-plus/dist/locale/zh-cn.mjs'
-
-app.use(ElementPlus, {
-  locale: zhCn,
-})
+<!-- Import style -->
+<link href="//unpkg.com/element-plus/dist/index.css" rel="stylesheet"/>
 ```
+
