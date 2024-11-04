@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "模拟阶段/高数真题知识点.md",
+                "file": "模拟阶段/线代救命.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "高数真题知识点"
+              "title": "线代救命"
             }
           }
         ]
@@ -93,10 +93,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "模拟阶段/高数真题知识点.md"
+                "file": "模拟阶段/线代救命.md"
               },
               "icon": "lucide-list",
-              "title": "高数真题知识点 的大纲"
+              "title": "线代救命 的大纲"
             }
           },
           {
@@ -175,35 +175,36 @@
   },
   "active": "dbb6ba6b70c76cb1",
   "lastOpenFiles": [
-    "模拟阶段/高等数学.md",
-    "高等数学/公式.md",
-    "模拟阶段/高数真题知识点.md",
-    "模拟阶段/picture/Pasted image 20241028185346.png",
-    "模拟阶段/C语言.md",
-    "模拟阶段/英语作文.md",
-    "模拟阶段/数据结构.md",
     "模拟阶段/线性代数.md",
-    "模拟阶段/阶段任务.md",
+    "模拟阶段/线代救命.md",
+    "模拟阶段/picture/Pasted image 20241104203707.png",
+    "模拟阶段/picture/Pasted image 20241104201503.png",
+    "模拟阶段/picture/Pasted image 20241104200457.png",
+    "模拟阶段/picture/Pasted image 20241104200258.png",
+    "模拟阶段/picture/Pasted image 20241104195941.png",
+    "模拟阶段/picture/Pasted image 20241104194632.png",
+    "模拟阶段/picture/Pasted image 20241104194616.png",
+    "模拟阶段/picture/Pasted image 20241104194606.png",
     "模拟阶段/代码题实战.md",
+    "模拟阶段/C语言.md",
+    "模拟阶段/picture/Pasted image 20241104145013.png",
+    "模拟阶段/数据结构.md",
+    "模拟阶段/高等数学.md",
+    "模拟阶段/高数真题知识点.md",
+    "模拟阶段/picture/Pasted image 20241031100558.png",
+    "模拟阶段/英语作文.md",
+    "模拟阶段/阶段任务.md",
+    "高等数学/公式.md",
     "高等数学/强化复习.md",
     "高等数学/二轮复习.md",
     "高等数学/二轮复习-例题.md",
     "高等数学/阿七B题.md",
-    "模拟阶段/picture/Pasted image 20241020093208.png",
     "高等数学/张宇基础.md",
-    "模拟阶段/picture/Pasted image 20241017210014.png",
-    "模拟阶段/picture/Pasted image 20241017110515.png",
-    "模拟阶段/picture/Pasted image 20241017093556.png",
     "专业课/代码部分.md",
     "模拟阶段/picture",
     "模拟阶段",
     "专业课/C语言.md",
-    "高等数学/picture/Pasted image 20241007195524.png",
-    "高等数学/picture/Pasted image 20241007161545.png",
-    "高等数学/picture/Pasted image 20241007161322.png",
-    "高等数学/picture/Pasted image 20241007161058.png",
     "408/数据结构.md",
-    "408/picture/Pasted image 20241005103455.png",
     "408/计算机网络.md",
     "408/操作系统.md",
     "408/计算机组成原理.md",
@@ -211,7 +212,6 @@
     "未命名.md",
     "线性代数/例题.md",
     "线性代数/小点.md",
-    "线性代数/知识点.md",
     "线性代数/picture",
     "线性代数",
     "专业课/picture",
