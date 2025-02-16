@@ -1,0 +1,10 @@
+{
+  "accentColor": "#0736f2",
+  "cssTheme": "Border",
+  "interfaceFontFamily": "Consolas",
+  "textFontFamily": "Consolas",
+  "monospaceFontFamily": "Consolas",
+  "baseFontSizeAction": true,
+  "nativeMenus": true,
+  "baseFontSize": 16
+}

@@ -1,0 +1,229 @@
+{
+  "main": {
+    "id": "1c9d84d72a75041e",
+    "type": "split",
+    "children": [
+      {
+        "id": "a7a03a9de2f016e7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "84cc4b7c6f705893",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "临时文件/中华传统文化网课.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "中华传统文化网课"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "af75c29a240f3ac4",
+    "type": "split",
+    "children": [
+      {
+        "id": "6c0f01b0d290f9b4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "296d014b546ec9f2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "6dc9173cbc076f85",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "path:\"高等数学/极限/\" ",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "b581bf76b0d5ac67",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "a0ace16559fc3e4b",
+    "type": "split",
+    "children": [
+      {
+        "id": "cc82663b8b03d524",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "40570c2639315284",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "临时文件/中华传统文化网课.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "中华传统文化网课 的大纲"
+            }
+          },
+          {
+            "id": "3a94f721567a9de9",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "插件不再活动"
+            }
+          },
+          {
+            "id": "3874ae7fe7910e79",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "模拟阶段/数据结构.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "数据结构 的反向链接列表"
+            }
+          },
+          {
+            "id": "1dd7620400a4e60d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "项目/oGin/report.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "report 的出链列表"
+            }
+          },
+          {
+            "id": "94eff0827d45bb5c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 238.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "templater-obsidian:Templater": false,
+      "oz-clear-unused-images:Clear Unused Images": false
+    }
+  },
+  "active": "296d014b546ec9f2",
+  "lastOpenFiles": [
+    "项目/oProxyServer/设计文档.md",
+    "项目/oGin/report.md",
+    "项目/oProxyServer/picture/Pasted image 20250216094150.png",
+    "项目/oProxyServer/picture/Pasted image 20250215224301.png",
+    "项目/oProxyServer/picture/Pasted image 20250215224245.png",
+    "项目/oGin/picture/trieTree.png",
+    "项目/oProxyServer/picture/Pasted image 20250215224120.png",
+    "项目/oGin/readme.md",
+    "项目/oProxyServer/api文档.md",
+    "项目/oProxyServer/picture/Pasted image 20250215221920.png",
+    "项目/oProxyServer/picture/Pasted image 20250215220626.png",
+    "项目/oProxyServer/picture/Pasted image 20250215220618.png",
+    "项目/oProxyServer/picture/Pasted image 20250215220551.png",
+    "项目/oProxyServer/readme.md",
+    "仓颉/语言入门.md",
+    "临时文件/中华传统文化网课.md",
+    "template/ad-warning.md",
+    "template/java-code.md",
+    "仓颉/官方文档目录.md",
+    "项目/oProxyServer/picture/context-class.png",
+    "项目/oProxyServer/picture",
+    "项目/oProxyServer",
+    "临时文件/picture",
+    "临时文件",
+    "项目/oGin/picture",
+    "项目/oGin",
+    "项目",
+    "仓颉/picture",
+    "仓颉",
+    "模拟阶段/专业课-C语言阅读.md",
+    "模拟阶段/专业课-C语言代码.md",
+    "模拟阶段/专业课-算法题.md",
+    "模拟阶段/专业课-简答题.md",
+    "模拟阶段/专业课复习笔记.md",
+    "模拟阶段/高等数学.md",
+    "模拟阶段/高数真题知识点.md",
+    "模拟阶段/数二大题.md",
+    "模拟阶段/数二李林.md",
+    "模拟阶段/数二突破.md",
+    "模拟阶段/数二真题复盘.md",
+    "模拟阶段/数二选填.md",
+    "模拟阶段/代码-二叉树.md",
+    "模拟阶段/代码题实战.md",
+    "模拟阶段/线性代数.md",
+    "模拟阶段/picture",
+    "未命名.canvas"
+  ]
+}

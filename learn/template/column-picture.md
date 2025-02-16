@@ -1,0 +1,4 @@
+---
+cssclass:
+  - img-grid
+---
