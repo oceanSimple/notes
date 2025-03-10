@@ -13,10 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/websocket-framework.md",
+                "file": "redis-golang/redis常用命令.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "redis常用命令"
             }
           }
         ]
@@ -38,8 +40,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -54,7 +59,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -62,7 +69,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
         ]
@@ -85,8 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "projects/websocket-framework.md"
-              }
+                "file": "redis-golang/redis常用命令.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "redis常用命令 的大纲"
             }
           },
           {
@@ -94,7 +108,9 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           },
           {
@@ -103,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "projects/websocket-framework.md",
+                "file": "redis-golang/redis常用命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +127,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "redis常用命令 的反向链接列表"
             }
           },
           {
@@ -120,10 +138,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "projects/websocket-framework.md",
+                "file": "redis-golang/redis常用命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "redis常用命令 的出链列表"
             }
           },
           {
@@ -133,8 +153,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           }
         ]
@@ -157,25 +181,28 @@
   },
   "active": "9eeb04b4fdd28444",
   "lastOpenFiles": [
-    "代码片段/output.md",
+    "编程文档/golang编程.md",
     "projects/websocket-framework.md",
     "projects/德州扑克.md",
+    "golang/websocket.md",
+    "blender/基础入门.md",
+    "二手交易平台/应用模块/个人信息模块.md",
+    "二手交易平台/应用模块/登录注册模块.md",
+    "代码片段/jwt.md",
+    "代码片段/gjson.md",
+    "代码片段/output.md",
     "template/socketio.md",
     "campus-shopping-web/web前端项目.md",
     "project/微服务作业文档.md",
     "front/vue+ts搭建.md",
     "front/vue总结.md",
     "projects/picture/Pasted image 20240912182741.png",
-    "代码片段/gjson.md",
     "代码片段/assert.md",
     "projects/picture/2fbcccf758d153ed09d479bb60bc250f.png",
     "projects/picture",
-    "代码片段/jwt.md",
     "projects",
     "编程文档/设计模式.md",
     "代码片段",
-    "编程文档/golang编程.md",
-    "blender/基础入门.md",
     "编程文档",
     "redis-golang/redis常用命令.md",
     "blender",
@@ -188,9 +215,6 @@
     "线性代数/知识点.md",
     "学习规划/周总结/2024-08-19 ~ 2024-08-23.md",
     "学习规划/每日总结/template.md",
-    "未命名.md",
-    "template/check-box.md",
-    "线性代数/例题.md",
     "线性代数/picture/Pasted image 20240819142430.png",
     "线性代数/picture/Pasted image 20240819142353.png",
     "线性代数/picture/Pasted image 20240819142323.png",
