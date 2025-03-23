@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "模拟阶段/代码题实战.md",
+                "file": "模拟阶段/专业课-C语言代码.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "代码题实战"
+              "title": "专业课-C语言代码"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "模拟阶段/代码题实战.md",
+                "file": "模拟阶段/专业课-C语言代码.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "代码题实战 的大纲"
+              "title": "专业课-C语言代码 的大纲"
             }
           },
           {
@@ -179,10 +179,12 @@
   },
   "active": "de3fdcc5f4a24268",
   "lastOpenFiles": [
+    "模拟阶段/专业课-C语言阅读.md",
+    "模拟阶段/专业课复习笔记.md",
+    "模拟阶段/C语言.md",
+    "模拟阶段/代码题实战.md",
     "专业课/C语言.md",
     "专业课/代码部分.md",
-    "模拟阶段/专业课复习笔记.md",
-    "模拟阶段/专业课-C语言阅读.md",
     "模拟阶段/专业课-C语言代码.md",
     "模拟阶段/专业课-算法题.md",
     "模拟阶段/专业课-简答题.md",
@@ -194,9 +196,7 @@
     "模拟阶段/数二真题复盘.md",
     "模拟阶段/数二选填.md",
     "模拟阶段/代码-二叉树.md",
-    "模拟阶段/代码题实战.md",
     "模拟阶段/线性代数.md",
-    "模拟阶段/C语言.md",
     "模拟阶段/英语作文总结.md",
     "模拟阶段/英语单词短语.md",
     "模拟阶段/政治大题.md",

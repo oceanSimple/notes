@@ -6,7 +6,7 @@
 
 ## apifox的测试文档
 
-[https://ojumk47nnt.apifox.cn/257891084e0](https://ojumk47nnt.apifox.cn/257891084e0)
+[api在线文档](https://apifox.com/apidoc/shared-d54dc3e2-5298-481a-8e91-6859d4f9789d/269586875e0)
 
 # default
 
@@ -23,10 +23,10 @@ pong
 
 ## GET 获取配置文件(json格式)
 
-|   |   |
-|---|---|
-|路径|/oproxy/admin/default/config/json|
-|请求头|oproxykey: ocean-proxy-server|
+|     |                                   |
+| --- | --------------------------------- |
+| 路径  | /oproxy/admin/default/config/json |
+| 请求头 | oproxykey: ocean-proxy-server     |
 
 响应示例
 
@@ -80,6 +80,15 @@ pong
   ]
 }
 ```
+
+## GET 恢复默认设置
+将配置文件恢复成默认配置, 慎用!!!
+
+|     |                                            |
+| --- | ------------------------------------------ |
+| 路径  | /oproxy/admin/default/restoreDefaultConfig |
+| 请求头 | oproxykey: ocean-proxy-server              |
+
 
 # upstream
 
@@ -271,3 +280,43 @@ body示例
 |---|---|
 |路径|/oproxy/admin/rewrite/regex/*|
 |请求头|oproxykey: ocean-proxy-server|
+
+# https
+## GET 是否开启https
+> flag只有两种值: true || false
+
+|     |                               |
+| --- | ----------------------------- |
+| 路径  | /oproxy/admin/https/:flag     |
+| 请求头 | oproxykey: ocean-proxy-server |
+
+## POST 更改httpsOptions
+
+|     |                               |
+| --- | ----------------------------- |
+| 路径  | /oproxy/admin/httpsOptions    |
+| 请求头 | oproxykey: ocean-proxy-server |
+body示例
+```
+{
+  "https": true,
+  "key": "test-https-key-file-name",
+  "cert": "test-https-cert-file-name"
+}
+```
+
+# jwt
+## GET 签发jwt
+
+|     |                               |
+| --- | ----------------------------- |
+| 路径  | /oproxy/admin/jwt/sign        |
+| 请求头 | oproxykey: ocean-proxy-server |
+
+## GET 校验JWT
+
+|     |                               |
+| --- | ----------------------------- |
+| 路径  | /oproxy/admin/jwt/verify      |
+| 请求头 | oproxykey: ocean-proxy-server |
+|     | Authorization: Bearer jwtcode |
