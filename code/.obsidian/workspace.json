@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "redis-golang/redis常用命令.md",
-                "mode": "source",
+                "file": "编程文档/golang编程.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "redis常用命令"
+              "title": "golang编程"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "redis-golang/redis常用命令.md",
+                "file": "编程文档/golang编程.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "redis常用命令 的大纲"
+              "title": "golang编程 的大纲"
             }
           },
           {
@@ -181,6 +181,19 @@
   },
   "active": "9eeb04b4fdd28444",
   "lastOpenFiles": [
+    "编程文档/设计模式.md",
+    "代码片段/output.md",
+    "代码片段/jwt.md",
+    "代码片段/gjson.md",
+    "代码片段/assert.md",
+    "campus-shopping-web/web前端项目.md",
+    "campus-shopping-web/websocket.md",
+    "front/vue总结.md",
+    "project/微服务作业文档.md",
+    "front/elementPlus.md",
+    "front/vue+ts搭建.md",
+    "front/css.md",
+    "redis-golang/redis常用命令.md",
     "编程文档/golang编程.md",
     "projects/websocket-framework.md",
     "projects/德州扑克.md",
@@ -188,23 +201,13 @@
     "blender/基础入门.md",
     "二手交易平台/应用模块/个人信息模块.md",
     "二手交易平台/应用模块/登录注册模块.md",
-    "代码片段/jwt.md",
-    "代码片段/gjson.md",
-    "代码片段/output.md",
     "template/socketio.md",
-    "campus-shopping-web/web前端项目.md",
-    "project/微服务作业文档.md",
-    "front/vue+ts搭建.md",
-    "front/vue总结.md",
     "projects/picture/Pasted image 20240912182741.png",
-    "代码片段/assert.md",
     "projects/picture/2fbcccf758d153ed09d479bb60bc250f.png",
     "projects/picture",
     "projects",
-    "编程文档/设计模式.md",
     "代码片段",
     "编程文档",
-    "redis-golang/redis常用命令.md",
     "blender",
     "redis-golang",
     "学习规划/每日总结/2024-08-23.md",
@@ -212,9 +215,6 @@
     "学习规划/每日总结/2024-08-21.md",
     "学习规划/每日总结/2024-08-20.md",
     "学习规划/每日总结/2024-08-19.md",
-    "线性代数/知识点.md",
-    "学习规划/周总结/2024-08-19 ~ 2024-08-23.md",
-    "学习规划/每日总结/template.md",
     "线性代数/picture/Pasted image 20240819142430.png",
     "线性代数/picture/Pasted image 20240819142353.png",
     "线性代数/picture/Pasted image 20240819142323.png",

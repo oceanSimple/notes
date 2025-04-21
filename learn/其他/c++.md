@@ -23,6 +23,9 @@ int main(int argc, char *argv[]) {
 }
 ```
 
+erase()
+count()
+
 ## 💫split函数
 ```c
 vector<string> split(string s, char delimiter) {  
@@ -187,6 +190,16 @@ for (const auto& pair : m) {
 }
 ```
 
+# ♾️stack
+push
+pop
+top
+
+# ♾️queue
+push
+pop
+front
+
 
 # ♾️导包
 
@@ -195,10 +208,287 @@ for (const auto& pair : m) {
 #include <string>  
 #include <unordered_map>  
 #include <vector>
-#include <iostream> // cout
+#include <iostream> // cout cin
 ```
 
 ```c
 // 对字符串进行排序处理  
 sort(strs[i].begin(), strs[i].end());
 ```
+
+# ♾️转换
+- int -> string
+	- to_string(i)
+- string -> int
+	- stoi(i)
+- char -> string
+	- string(1, str[0])
+
+
+# ♾️代码
+## 💫树的高度
+
+
+```c
+#include <iostream>
+#include <unordered_map>
+using namespace std;
+
+class TreeNode {
+public:
+    int value;
+    TreeNode *left;
+    TreeNode *right;
+
+    TreeNode(int v) {
+        value = v;
+        left = nullptr;
+        right = nullptr;
+    }
+};
+
+
+int height(TreeNode *root) {
+    if (root == nullptr)
+        return 0;
+    int left = height(root->left);
+    int right = height(root->right);
+
+    return left > right ? left + 1 : right + 1;
+}
+
+int main() {
+    unordered_map<int, TreeNode *> tree;
+
+    int nodeCount;
+    cin >> nodeCount;
+
+    int a, b;
+    while (cin >> a && cin >> b) {
+        TreeNode *father;
+        TreeNode *child;
+
+        bool fatherFlag = tree.count(a);
+        bool childFlag = tree.count(b);
+
+        if (fatherFlag) {
+            father = tree[a];
+        } else {
+            father = new TreeNode(a);
+        }
+        if (childFlag) {
+            child = tree[b];
+        } else {
+            child = new TreeNode(b);
+        }
+
+        if (father->left == nullptr) {
+            father->left = child;
+        } else {
+            father->right = child;
+        }
+        tree[a] = father;
+        tree[b] = child;
+    }
+    cout << height(tree[1]);
+
+    return 0;
+}
+```
+
+## 💫构建树
+```c
+#include <iostream>
+#include <unordered_map>
+
+using namespace std;
+
+class TreeNode {
+public:
+    int value;
+    TreeNode *left;
+    TreeNode *right;
+
+    TreeNode(int v) {
+        value = v;
+        left = nullptr;
+        right = nullptr;
+    }
+};
+
+void preOrder(TreeNode *root) {
+    if (root == nullptr)
+        return;
+    cout << root->value << " ";
+    preOrder(root->left);
+    preOrder(root->right);
+}
+
+void inOrder(TreeNode *root) {
+    if (root == nullptr)
+        return;
+    inOrder(root->left);
+    cout << root->value << " ";
+    inOrder(root->right);
+}
+
+void postOrder(TreeNode *root) {
+    if (root == nullptr)
+        return;
+    postOrder(root->left);
+    postOrder(root->right);
+    cout << root->value << " ";
+}
+
+int main() {
+    unordered_map<int, TreeNode *> tree;
+
+    int lineCount;
+    cin >> lineCount;
+
+    int a, b, c;
+    while (cin >> a && cin >> b && cin >> c) {
+        TreeNode *father;
+        if (tree.count(a)) {
+            father = tree[a];
+        } else {
+            father = new TreeNode(a);
+        }
+
+        TreeNode *lchild = nullptr;
+        if (b != -1) {
+            bool flag = tree.count(b);
+            if (flag) {
+                lchild = tree[b];
+            } else {
+                lchild = new TreeNode(b);
+            }
+        }
+
+        TreeNode *rchild = nullptr;
+        if (c != -1) {
+            bool flag = tree.count(c);
+            if (flag) {
+                rchild = tree[c];
+            } else {
+                rchild = new TreeNode(c);
+            }
+        }
+
+        father->left = lchild;
+        father->right = rchild;
+
+        tree[a] = father;
+        tree[b] = lchild;
+        tree[c] = rchild;
+    }
+
+    cout << "Preorder" << endl;
+    preOrder(tree[0]);
+    cout << endl;
+
+    cout << "Inorder" << endl;
+    inOrder(tree[0]);
+    cout << endl;
+
+    cout << "Postorder" << endl;
+    postOrder(tree[0]);
+}
+```
+
+```c
+#include <iostream>
+#include <vector>
+#include <unordered_map>
+#include <unordered_set>
+using namespace std;
+
+struct TreeNode {
+    int left;
+    int right;
+    TreeNode(int l = -1, int r = -1) : left(l), right(r) {}
+};
+
+// 前序遍历
+void preTraverse(const unordered_map<int, TreeNode>& tree, int root){
+    if (root == -1) return;
+    cout << " " << root;
+    preTraverse(tree, tree.at(root).left);
+    preTraverse(tree, tree.at(root).right);
+}
+
+// 中序遍历
+void inTraverse(const unordered_map<int, TreeNode>& tree, int root){
+    if (root == -1) return;
+    inTraverse(tree, tree.at(root).left);
+    cout << " " << root;
+    inTraverse(tree, tree.at(root).right);
+}
+
+// 后序遍历
+void postTraverse(const unordered_map<int, TreeNode>& tree, int root){
+    if (root == -1) return;
+    postTraverse(tree, tree.at(root).left);
+    postTraverse(tree, tree.at(root).right);
+    cout << " " << root;
+}
+
+int main(){
+    int n;
+    cin >> n;
+    unordered_map<int, TreeNode> tree;
+    unordered_set<int> children;
+
+    for(int i = 0; i < n; ++i){
+        int node, left, right;
+        cin >> node >> left >> right;
+        tree[node] = TreeNode(left, right);
+        if(left != -1) children.insert(left);
+        if(right != -1) children.insert(right);
+    }
+
+    // 确定根节点
+    int root = -1;
+    for(int i = 0; i < n; ++i){
+        if(children.find(i) == children.end()){
+            root = i;
+            break;
+        }
+    }
+
+    // 输出遍历结果
+    cout << "Preorder";
+    preTraverse(tree, root);
+    cout << endl;
+
+    cout << "Inorder";
+    inTraverse(tree, root);
+    cout << endl;
+
+    cout << "Postorder";
+    postTraverse(tree, root);
+    cout << endl;
+
+    return 0;
+}
+```
+
+
+## 💫map遍历
+```c
+int main() {  
+    unordered_map<int, int> tree;  
+    tree[1] = 1;  
+    tree[2] = 2;  
+    tree[3] = 3;  
+  
+    for (auto pair: tree) {  
+        cout << pair.first << ": " << pair.second << endl;  
+    }  
+}
+```
+
+
+
+
+

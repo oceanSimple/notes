@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "模拟阶段/专业课-C语言代码.md",
+                "file": "模拟阶段/代码-二叉树.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "专业课-C语言代码"
+              "title": "代码-二叉树"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "模拟阶段/专业课-C语言代码.md",
+                "file": "模拟阶段/代码-二叉树.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "专业课-C语言代码 的大纲"
+              "title": "代码-二叉树 的大纲"
             }
           },
           {
@@ -179,15 +179,24 @@
   },
   "active": "de3fdcc5f4a24268",
   "lastOpenFiles": [
-    "模拟阶段/专业课-C语言阅读.md",
-    "模拟阶段/专业课复习笔记.md",
-    "模拟阶段/C语言.md",
     "模拟阶段/代码题实战.md",
+    "模拟阶段/代码-二叉树.md",
+    "模拟阶段/线代救命.md",
+    "模拟阶段/英语大作文.md",
+    "模拟阶段/英语单词短语.md",
+    "模拟阶段/英语小作文.md",
+    "模拟阶段/英语作文词汇.md",
+    "模拟阶段/英语作文总结.md",
+    "模拟阶段/政治大题.md",
+    "模拟阶段/专业课-简答题.md",
+    "模拟阶段/专业课-算法题.md",
+    "模拟阶段/专业课-C语言代码.md",
+    "模拟阶段/专业课-C语言阅读.md",
+    "模拟阶段/C语言.md",
+    "模拟阶段/专业课复习笔记.md",
+    "模拟阶段/数据结构.md",
     "专业课/C语言.md",
     "专业课/代码部分.md",
-    "模拟阶段/专业课-C语言代码.md",
-    "模拟阶段/专业课-算法题.md",
-    "模拟阶段/专业课-简答题.md",
     "模拟阶段/高等数学.md",
     "模拟阶段/高数真题知识点.md",
     "模拟阶段/数二大题.md",
@@ -195,13 +204,7 @@
     "模拟阶段/数二突破.md",
     "模拟阶段/数二真题复盘.md",
     "模拟阶段/数二选填.md",
-    "模拟阶段/代码-二叉树.md",
     "模拟阶段/线性代数.md",
-    "模拟阶段/英语作文总结.md",
-    "模拟阶段/英语单词短语.md",
-    "模拟阶段/政治大题.md",
-    "模拟阶段/英语小作文.md",
-    "模拟阶段/英语大作文.md",
     "模拟阶段/picture/Pasted image 20241217200559.png",
     "模拟阶段/picture/Pasted image 20241217200522.png",
     "模拟阶段/picture/Pasted image 20241217200516.png",
@@ -209,12 +212,9 @@
     "模拟阶段/picture/Pasted image 20241217192926.png",
     "模拟阶段/picture/Pasted image 20241217190046.png",
     "模拟阶段/picture/Pasted image 20241217190026.png",
-    "模拟阶段/英语作文词汇.md",
     "模拟阶段/picture/Pasted image 20241216182717.png",
     "模拟阶段/picture/Pasted image 20241216182408.png",
     "模拟阶段/picture/Pasted image 20241216182348.png",
-    "模拟阶段/数据结构.md",
-    "模拟阶段/线代救命.md",
     "模拟阶段/picture",
     "模拟阶段",
     "线性代数/picture",
